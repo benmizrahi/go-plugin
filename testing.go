@@ -11,8 +11,8 @@ import (
 	"net/rpc"
 	"testing"
 
+	"github.com/benmizrahi/go-plugin/internal/grpcmux"
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/go-plugin/internal/grpcmux"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

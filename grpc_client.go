@@ -10,7 +10,7 @@ import (
 	"math"
 	"net"
 
-	"github.com/hashicorp/go-plugin/internal/plugin"
+	"github.com/benmizrahi/go-plugin/internal/plugin"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/insecure"
