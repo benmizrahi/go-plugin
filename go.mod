@@ -5,6 +5,7 @@ go 1.24
 require (
 	github.com/golang/protobuf v1.5.4
 	github.com/hashicorp/go-hclog v1.6.3
+	github.com/hashicorp/go-plugin v1.6.3
 	github.com/hashicorp/yamux v0.1.2
 	github.com/jhump/protoreflect v1.17.0
 	github.com/oklog/run v1.1.0
