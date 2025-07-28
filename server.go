@@ -526,11 +526,11 @@ func Serve(opts *ServeConfig) {
 }
 
 func serverListener(unixSocketCfg UnixSocketConfig) (net.Listener, error) {
-	if runtime.GOOS == "windows" {
+	// if runtime.GOOS == "windows" {
 		return serverListener_tcp()
-	}
+	// }
 
-	return serverListener_unix(unixSocketCfg)
+	// return serverListener_unix(unixSocketCfg)
 }
 
 func serverListener_tcp() (net.Listener, error) {
