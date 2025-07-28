@@ -1,4 +1,4 @@
-module github.com/hashicorp/go-plugin
+module github.com/benmizrahi/go-plugin
 
 go 1.24
 
